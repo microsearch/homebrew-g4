@@ -5,6 +5,8 @@ class G4tools < Formula
     url "https://github.com/microsearch/homebrew-g4/releases/download/v#{version}/g4tools-macos-aarch64-v#{version}.tar.gz"
     sha256 "0ed6125d4dccc8a9da8c9bab6ed25153e4a70c9638fc80d6f6f3cf00e144679d"
 
+    depends_on "deno"
+
     def install
         bin.install "g4"
         bin.install "g4env"
