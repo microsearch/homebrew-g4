@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-if [ -z "$1"]; then
+if [ -z "$1" ]; then
     echo "Usage: $0 VERSION"
     exit 1
 fi
@@ -10,6 +10,7 @@ TARBALL=g4tools-macos-aarch64-$VERSION.tar.gz
 BINARIES="g4 g4env g4sm g4x hdump g3 g3users"
 
 pushd ~/microsearch/aws/g4
+git pull
 just install-cli
 popd
 
