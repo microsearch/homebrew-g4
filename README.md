@@ -4,10 +4,17 @@ homebrew tap for g4 command-line tools
 
 ## Installation
 
-To install or update the G4 command-line tools using homebrew:
+To install the G4 command-line tools using homebrew:
 
 ```sh
-brew install microsearch/g4/g4tools
+brew tap microsearch/g4
+brew install g4tools
+```
+
+To update the G4 command-line tools (along with all other installed homebrew packages):
+    
+```sh
+brew update && brew upgrade
 ```
 
 ## Maintenance

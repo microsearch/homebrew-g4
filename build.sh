@@ -1,5 +1,10 @@
 #! /usr/bin/env bash
 
+if [[ "$(uname)" != "Darwin" ]]; then
+  echo "This script is only intended for macOS (Darwin)."
+  exit 1
+fi
+
 if [ -z "$1" ]; then
     echo "Usage: $0 VERSION"
     exit 1
