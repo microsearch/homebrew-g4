@@ -19,4 +19,4 @@ pushd ~/.cargo/bin
 \rm $BINARIES
 popd
 
-sha256sum $TARBALL
+sha256 $TARBALL
