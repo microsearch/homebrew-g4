@@ -11,8 +11,9 @@ brew tap microsearch/g4
 brew install g4tools
 ```
 
-To update the G4 command-line tools (along with all other installed homebrew packages):
-    
+To update the G4 command-line tools (along with all other installed homebrew
+packages):
+
 ```sh
 brew update && brew upgrade
 ```
@@ -23,6 +24,7 @@ To update the homebrew package:
 
 - If necessary, make sure the HEAD of the `g4` source tree has a tag with the
   expected format (`vMAJOR.MINOR.PATCH`).
+- In the g4 source tree: `git pull`
 - Build the tarball using `./build.sh VERSION` where version is formatted like:
   `v1.0.0`
 - Update `Formula/g4tools.rb`.

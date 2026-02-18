@@ -1,9 +1,9 @@
 class G4tools < Formula
-    version "1.15.4"
+    version "1.15.5"
     desc "G4 command-line tools"
     homepage "https://github.com/microsearch/homebrew-g4"
     url "https://github.com/microsearch/homebrew-g4/releases/download/v#{version}/g4tools-macos-aarch64-v#{version}.tar.gz"
-    sha256 "67e389231587f0c6676caa5bca4f70da6c73cee92e65791cd9ee67fb524969c5"
+    sha256 "e0c86977c44dde703320698ab8b83d23834a70c39faa96cfa278598cae7fae01"
 
     depends_on "deno"
 
