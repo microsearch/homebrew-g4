@@ -12,10 +12,11 @@ fi
 VERSION=$1
 
 TARBALL=g4tools-macos-aarch64-$VERSION.tar.gz
-BINARIES="g4 g4env g4sm g4x hdump g3 g3users"
+BINARIES="g4 g4env g4sm hdump g3 g3users"
 
 pushd ~/microsearch/aws/g4
 git pull
+git clean -fxd .
 just install-cli
 popd
 

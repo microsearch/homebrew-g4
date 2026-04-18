@@ -1,9 +1,9 @@
 class G4tools < Formula
-    version "1.15.6"
+    version "1.16.3"
     desc "G4 command-line tools"
     homepage "https://github.com/microsearch/homebrew-g4"
     url "https://github.com/microsearch/homebrew-g4/releases/download/v#{version}/g4tools-macos-aarch64-v#{version}.tar.gz"
-    sha256 "bd655cc071ba2bd6a3f56a3dd73d85575ac70010ff2207888b28fa07fd7bb889"
+    sha256 "b9b8eb92f110834842226c8b0c8ccbd287ec10ab9964ce6c710e678020ba1ef3"
 
     depends_on "deno"
 
@@ -11,7 +11,6 @@ class G4tools < Formula
         bin.install "g4"
         bin.install "g4env"
         bin.install "g4sm"
-        bin.install "g4x"
         bin.install "hdump"
         bin.install "g3"
         bin.install "g3users"
